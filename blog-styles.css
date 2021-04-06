@@ -1,0 +1,28 @@
+#header {
+  margin: 0 auto;
+  padding: 44px 0 50px;
+  text-align: center;
+  width: 960px;
+}
+#header ul {
+  margin: 0;
+  padding: 56px 0 0;
+}
+#header ul li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0 19px;
+}
+#header ul li a {
+  color: #252525;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
