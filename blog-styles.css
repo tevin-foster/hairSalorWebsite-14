@@ -1,8 +1,8 @@
 #header {
   margin: 0 auto;
-  padding: 44px 0 50px;
+  padding: 30px 0 40px;
   text-align: center;
-  width: 960px;
+  width: 100vw;
 }
 #header ul {
   margin: 0;
@@ -25,4 +25,104 @@
   text-decoration: none;
   text-transform: uppercase;
   
+}
+#main-container{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+background: red;
+align-content: center;
+
+}
+.inside-top{
+  width: 75%;
+  height: auto;
+  margin: 4px;
+  padding: 6px;
+  display: inline-block;
+  float: right;
+border: blue;
+border-radius: 20px;
+}
+
+
+.middle{
+  background: yellow;
+}
+
+.bottom{
+  background: blue;
+
+}
+
+.top img{
+  width: 300px;
+  height: 200px;
+}
+.middle img{
+  width: 300px;
+  height: 200px;
+}
+.bottom img{
+  width: 300px;
+  height: 200px;
+}
+.button {
+  background-color: rgba(255, 0, 0, 0.6);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  font-family: 'Montserrat Alternates', sans-serif;
+text-shadow: 2px 2px black;
+cursor: pointer;
+}
+p{
+font-family: 'Montserrat Alternates', sans-serif;
+}
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background: black;
+  width: 100vw;
+  color: white;
+  margin: 5px auto;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  
+}
+footer div p {
+  color: #fff;
+  float: left;
+  line-height: 44px;
+  margin: 0 0 0 10px;
+  padding: 5px;
+}
+footer a{
+padding-left: 25px;
+font-size: 25px;
 }
