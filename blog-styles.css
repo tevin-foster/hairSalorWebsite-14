@@ -31,45 +31,78 @@
   flex-direction: column;
 }
 .top{
-background: red;
 align-content: center;
+width: 100%;
+height: auto;
+margin: 5px;
+
 
 }
 .inside-top{
-  width: 75%;
+  font-family: 'Montserrat Alternates', sans-serif;
   height: auto;
-  margin: 4px;
-  padding: 6px;
-  display: inline-block;
-  float: right;
-border: blue;
-border-radius: 20px;
+margin: auto;
+  padding: 9px;
+  width: 50%;
+  align-content: center;
+  text-align: center;
+
 }
 
-
 .middle{
-  background: yellow;
+  align-content: center;
+  width: 100%;
+height: auto;
+margin: 5px;
+
+}
+.inside-middle{
+  font-family: 'Montserrat Alternates', sans-serif;
+  height: auto;
+margin: auto;
+  padding: 9px;
+  width: 50%;
+  align-content: center;
+  text-align: center;
 }
 
 .bottom{
-  background: blue;
-
+  align-content: center;
+  width: 100%;
+height: auto;
+margin: 5px;
+}
+.inside-bottom{
+  font-family: 'Montserrat Alternates', sans-serif;
+  height: auto;
+margin: auto;
+  padding: 9px;
+  width: 50%;
+  align-content: center;
+  text-align: center;
+  
 }
 
 .top img{
   width: 300px;
   height: 200px;
+  float: left;
+ margin: 3px;
 }
 .middle img{
   width: 300px;
   height: 200px;
+  float: left;
+ margin: 3px;
 }
 .bottom img{
   width: 300px;
   height: 200px;
+  float: left;
+ margin: 3px;
 }
 .button {
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   color: white;
   padding: 12px 16px;
@@ -85,6 +118,7 @@ cursor: pointer;
 }
 p{
 font-family: 'Montserrat Alternates', sans-serif;
+
 }
 h2{
   font-family: 'Montserrat Alternates', sans-serif;
